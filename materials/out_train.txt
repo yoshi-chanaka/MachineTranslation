@@ -1,0 +1,55 @@
+Loading Dataset ...
+Done
+2022-10-15 01:08:47.090451
+batch size: 128
+Using cuda device
+2022-10-15 01:08:50.267247: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-15 01:08:50.417700: I tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2022-10-15 01:08:50.422785: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-10-15 01:08:50.422815: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-10-15 01:08:50.448061: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-10-15 01:08:51.807128: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-10-15 01:08:51.807230: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-10-15 01:08:51.807243: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-10-15 01:27:29.721986	Epoch: 1 Train loss: 4.7361, Valid loss: 3.9591, Valid BLEU: 3.8713
+2022-10-15 01:45:46.835542	Epoch: 2 Train loss: 3.5613, Valid loss: 3.2668, Valid BLEU: 8.0340
+2022-10-15 02:04:00.975793	Epoch: 3 Train loss: 3.0615, Valid loss: 2.9125, Valid BLEU: 10.7544
+2022-10-15 02:22:16.277227	Epoch: 4 Train loss: 2.7645, Valid loss: 2.7154, Valid BLEU: 11.8072
+2022-10-15 02:40:32.149282	Epoch: 5 Train loss: 2.5626, Valid loss: 2.5803, Valid BLEU: 12.7306
+2022-10-15 02:58:48.795681	Epoch: 6 Train loss: 2.4153, Valid loss: 2.4745, Valid BLEU: 13.7698
+2022-10-15 03:17:03.404914	Epoch: 7 Train loss: 2.3048, Valid loss: 2.4103, Valid BLEU: 14.7878
+2022-10-15 03:35:16.948386	Epoch: 8 Train loss: 2.2173, Valid loss: 2.3384, Valid BLEU: 14.2978
+2022-10-15 03:53:33.585500	Epoch: 9 Train loss: 2.1460, Valid loss: 2.3062, Valid BLEU: 14.9199
+2022-10-15 04:11:50.518823	Epoch: 10 Train loss: 2.0858, Valid loss: 2.2683, Valid BLEU: 15.2571
+2022-10-15 04:30:12.202588	Epoch: 11 Train loss: 2.0345, Valid loss: 2.2532, Valid BLEU: 14.9370
+2022-10-15 04:48:21.592489	Epoch: 12 Train loss: 1.9898, Valid loss: 2.2238, Valid BLEU: 15.5133
+2022-10-15 05:06:40.528526	Epoch: 13 Train loss: 1.9513, Valid loss: 2.1936, Valid BLEU: 15.7395
+2022-10-15 05:24:55.077852	Epoch: 14 Train loss: 1.9164, Valid loss: 2.1934, Valid BLEU: 15.5696
+2022-10-15 05:43:17.516189	Epoch: 15 Train loss: 1.8852, Valid loss: 2.1823, Valid BLEU: 15.6756
+2022-10-15 06:01:30.763702	Epoch: 16 Train loss: 1.8573, Valid loss: 2.1598, Valid BLEU: 15.9662
+2022-10-15 06:19:45.809285	Epoch: 17 Train loss: 1.8320, Valid loss: 2.1635, Valid BLEU: 15.3140
+2022-10-15 06:37:57.862823	Epoch: 18 Train loss: 1.8081, Valid loss: 2.1637, Valid BLEU: 16.1763
+2022-10-15 06:56:14.837154	Epoch: 19 Train loss: 1.7865, Valid loss: 2.1385, Valid BLEU: 16.2481
+2022-10-15 07:14:27.748873	Epoch: 20 Train loss: 1.7667, Valid loss: 2.1455, Valid BLEU: 15.7861
+2022-10-15 07:32:44.563448	Epoch: 21 Train loss: 1.7480, Valid loss: 2.1467, Valid BLEU: 16.4410
+2022-10-15 07:50:58.444474	Epoch: 22 Train loss: 1.7306, Valid loss: 2.1369, Valid BLEU: 16.2877
+2022-10-15 08:09:11.986116	Epoch: 23 Train loss: 1.7147, Valid loss: 2.1344, Valid BLEU: 16.2603
+2022-10-15 08:27:24.783168	Epoch: 24 Train loss: 1.6997, Valid loss: 2.1372, Valid BLEU: 16.6618
+2022-10-15 08:45:37.285030	Epoch: 25 Train loss: 1.6853, Valid loss: 2.1268, Valid BLEU: 16.7344
+2022-10-15 09:03:54.349002	Epoch: 26 Train loss: 1.6721, Valid loss: 2.1253, Valid BLEU: 16.3324
+2022-10-15 09:22:13.147452	Epoch: 27 Train loss: 1.6594, Valid loss: 2.1316, Valid BLEU: 16.2796
+2022-10-15 09:40:34.536357	Epoch: 28 Train loss: 1.6478, Valid loss: 2.1149, Valid BLEU: 16.4301
+2022-10-15 09:58:43.624131	Epoch: 29 Train loss: 1.6364, Valid loss: 2.1197, Valid BLEU: 16.9075
+2022-10-15 10:17:01.077707	Epoch: 30 Train loss: 1.6256, Valid loss: 2.1264, Valid BLEU: 16.5013
+2022-10-15 10:35:11.975687	Epoch: 31 Train loss: 1.6153, Valid loss: 2.1154, Valid BLEU: 17.0149
+2022-10-15 10:53:28.236803	Epoch: 32 Train loss: 1.6054, Valid loss: 2.1216, Valid BLEU: 16.5333
+2022-10-15 11:11:37.863331	Epoch: 33 Train loss: 1.5969, Valid loss: 2.1127, Valid BLEU: 16.9833
+2022-10-15 11:29:48.073538	Epoch: 34 Train loss: 1.5875, Valid loss: 2.1244, Valid BLEU: 16.8679
+2022-10-15 11:48:03.451438	Epoch: 35 Train loss: 1.5794, Valid loss: 2.1270, Valid BLEU: 17.0060
+2022-10-15 12:06:16.828194	Epoch: 36 Train loss: 1.5709, Valid loss: 2.1128, Valid BLEU: 16.8880
+2022-10-15 12:24:33.947363	Epoch: 37 Train loss: 1.5634, Valid loss: 2.1182, Valid BLEU: 16.7757
+2022-10-15 12:42:53.803798	Epoch: 38 Train loss: 1.5562, Valid loss: 2.1211, Valid BLEU: 17.2469
+2022-10-15 13:01:06.792727	Epoch: 39 Train loss: 1.5491, Valid loss: 2.1148, Valid BLEU: 17.1717
+2022-10-15 13:19:18.460062	Epoch: 40 Train loss: 1.5421, Valid loss: 2.1279, Valid BLEU: 16.9592
+2022-10-15 13:19:20.733729

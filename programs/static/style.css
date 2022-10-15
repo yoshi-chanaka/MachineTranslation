@@ -1,0 +1,77 @@
+body{
+    padding-top: 90px;
+    background: #F5FFFA;
+}
+div {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+header {
+    font-size: 48px;
+    font-family: Helvetica;
+    font-weight: 800;
+    color: #006666;
+    background: #F5F5F5;
+    width: 100%;
+    height: 80px;
+    padding: 20px 50px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+
+#name {
+    resize: none;
+    font-size: 20px;
+    width: 90%;
+    height: 150px;
+    padding: 10px;
+    border: none;
+    box-shadow: 2px 3px 3px 2px rgba(85, 107, 47, 0.4);
+}
+
+#out {
+    resize: none;
+    font-size: 20px;
+    width: 90%;
+    height: 150px;
+    padding: 10px;
+    border: none;
+    box-shadow: 2px 3px 3px 2px rgba(85, 107, 47, 0.4);
+}
+
+
+#button{
+    display: inline-block;
+    color: #000000;
+    background: #fdfbfb;
+    border:none;
+    width: 100px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 7px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fdfbfb), to(#ebedee));
+    background: -webkit-linear-gradient(top, #fdfbfb 0%, #ebedee 100%);
+    background: linear-gradient(to bottom, #fdfbfb 0%, #ebedee 100%);
+    -webkit-box-shadow: inset 1px 1px 1px #fff;
+    box-shadow: 2px 3px 3px 2px rgba(85, 107, 47, 0.4);
+}
+
+#button:hover {
+    background: -webkit-gradient(linear, left bottom, left top, from(#fdfbfb), to(#ebedee));
+    background: -webkit-linear-gradient(bottom, #fdfbfb 0%, #ebedee 100%);
+    background: linear-gradient(to top, #fdfbfb 0%, #ebedee 100%);
+}
+
+#button:active{ /*https://saruwakakun.com/html-css/reference/buttons*/
+	color:#F0F8FF;
+	-webkit-transform:translateY(4px);
+	transform:translateY(4px);
+	border-bottom:none;
+}
+

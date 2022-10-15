@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{{ staticfile('style.css') }}">
+    <title>和英翻訳</title>
+</head>
+
+<body>
+    <header>CheapL</header>
+    <div>
+        <form action="/" method="POST" enctype="multipart/form-data">
+            <p>
+                <textarea id="name" name="name" rows="4" cols="100" style="font-family:Helvetica" placeholder="テキストを入力してください">{{ input }}</textarea>
+            </p>
+            <p>
+                <input id="button", type="submit" value="翻訳", style="cursor:pointer" style="font-family:Helvetica">
+            </p>
+        </form>
+        <p>
+            <textarea id="out" name="out" rows="4" cols="100" style="font-family:Helvetica">{{ output }}</textarea>
+        </p>
+    </div>
+</body>
+
+</html>
