@@ -4,7 +4,7 @@
 * 翻訳モデルはOpenNMTやfairseqなどニューラル翻訳のツールキット等は使用せず，PyTorchのみを用いています（[PyTorchのチュートリアル](https://pytorch.org/tutorials/beginner/translation_transformer.html)を参考）
 * 学習は[京都フリー翻訳タスク (KFTT)コーパス](http://www.phontron.com/kftt/index-ja.html)を利用
 * `programs/server.py`を実行することでブラウザ上での翻訳が可能
-* ブラウザでの翻訳例は`screenshots/translate_example*.png`
+* ブラウザでの翻訳例は[screenshots/translate_example*.png](https://github.com/yoshi-chanaka/MachineTranslation/tree/master/screenshots)にて確認可能
 
 ## 翻訳モデルの構築
 * sp_tokenize.py
